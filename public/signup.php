@@ -26,7 +26,7 @@ if(is_post_request()) {
 ?>
 
 <?php $page_title = 'Sign Up'; ?>
-<?php include(SHARED_PATH . '/bird-staff-header.php'); ?>
+<?php include(SHARED_PATH . '/public_header.php'); ?>
 
 <div id="main">
 
