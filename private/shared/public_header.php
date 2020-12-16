@@ -26,5 +26,7 @@
           WNC Birds
         </a>
       </h1>
-      <p style="text-align: center; font-size: 1.25rem;"><a style="color: #000;" href="<?php echo url_for('/bird-staff/login.php'); ?>">Login</a></p>
+      <p style="display: inline-block; font-size: 1.25rem;"><a style="color: #000;" href="<?php echo url_for('/bird-staff/login.php'); ?>">Login</a></p>
+      <p style="display: inline-block; margin-left: 1rem; font-size: 1.25rem;"><a style="color: #000;" href="<?php echo url_for('/signup.php'); ?>">Sign Up</a></p>
+
     </header>
