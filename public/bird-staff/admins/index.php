@@ -2,6 +2,9 @@
 
 <?php require_login(); ?>
 
+<?php require_admin(); ?>
+
+
 <?php
   
 // Find all admins

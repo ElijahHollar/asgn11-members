@@ -9,6 +9,15 @@ function require_login() {
   }
 }
 
+function require_admin() {
+  global $session;
+  if($session->user_level !== 'a') {
+    redirect_to(url_for('/bird-staff/index.php'));
+  } else {
+    // Let the page load
+  }
+}
+
 function display_errors($errors=array()) {
   $output = '';
   if(!empty($errors)) {

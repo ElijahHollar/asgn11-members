@@ -2,6 +2,8 @@
 
 <?php require_login(); ?>
 
+<?php require_admin(); ?>
+
 <?php
 
 $id = $_GET['id'] ?? '1'; // PHP > 7.0
