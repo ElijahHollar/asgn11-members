@@ -1,16 +1,9 @@
-<?php require_once('../private/initialize.php'); ?> 
+<?php 
 
-<?php include(SHARED_PATH . '/public_header.php'); ?>
+require_once('../private/initialize.php');  
 
-<div id="main">
+include(SHARED_PATH . '/public_header.php'); 
 
-  <ul id="menu">
-    <li><a href="<?php echo url_for('/bicycles.php'); ?>">View Our Inventory</a></li>
-    <li><a href="<?php echo url_for('/about.php'); ?>">About Us</a></li>
-  </ul>
-    
-</div>
+redirect_to('/WEB250/asgn11-member/public/bird.php');
 
-<?php $super_hero_image = 'AdobeStock_18040381_xlarge.jpeg'; ?>
-
-<?php include(SHARED_PATH . '/public_footer.php'); ?> -->
+include(SHARED_PATH . '/public_footer.php');
